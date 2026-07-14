@@ -59,7 +59,7 @@
   /* Hero */
   .hero {
     position: relative;
-    padding: 96px 24px 84px;
+    padding: 44px 24px 76px;
     text-align: center;
     overflow: hidden;
     background: var(--bg);
@@ -145,30 +145,18 @@
   section + section, .band + section, section + .band { border-top: 1px solid var(--line); }
 
   .kicker {
-    display: flex;
-    align-items: center;
-    gap: 14px;
-    margin-bottom: 30px;
-  }
-  .kicker .num {
-    font-family: 'Helvetica Neue', Arial, sans-serif;
-    font-size: 12px;
-    color: #fff;
-    background: var(--teal);
-    width: 26px;
-    height: 26px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-shrink: 0;
+    margin-bottom: 26px;
   }
   h2 {
     font-family: 'Helvetica Neue', Arial, sans-serif;
-    font-size: 12px;
-    letter-spacing: 0.22em;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.16em;
     text-transform: uppercase;
-    color: var(--accent-dark);
+    color: var(--teal);
+    padding-bottom: 10px;
+    border-bottom: 2px solid var(--accent);
+    display: inline-block;
   }
 
   /* About with photo */
@@ -392,7 +380,7 @@
 </div>
 
 <section class="about" id="about">
-  <div class="kicker"><span class="num">1</span><h2>About</h2></div>
+  <div class="kicker"><h2>About</h2></div>
   <div class="about-grid">
     <div>
       <div class="about-photo"><img src="Sanjukta.jpeg" alt="Sanjukta Sarkar"></div>
@@ -406,14 +394,14 @@
 
 <div class="band paper-band">
   <div class="band-inner name-origin">
-    <div class="kicker"><span class="num">2</span><h2>Our Name</h2></div>
+    <div class="kicker"><h2>Our Name</h2></div>
     <span class="quote-mark">&ldquo;</span>
     <p>Sahoj is inspired by the Sanskrit concept of Sahaja &mdash; that which is natural and effortless &mdash; and the Bengali word Sahoj, meaning simple. We believe the best transformations are not the most complicated ones. They are the ones that bring clarity, align people, and simplify execution.</p>
   </div>
 </div>
 
 <section class="pillars" id="pillars">
-  <div class="kicker"><span class="num">3</span><h2>Five Pillars</h2></div>
+  <div class="kicker"><h2>Five Pillars</h2></div>
   <div class="pillars-grid">
     <div class="pillar">
       <svg class="pillar-icon" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M8 32L16 14L24 24L32 8" stroke="#b5602e" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/><circle cx="32" cy="8" r="2.5" fill="#b5602e"/></svg>
@@ -450,7 +438,7 @@
 
 <div class="band paper-band" id="services">
   <div class="band-inner">
-    <div class="kicker"><span class="num">4</span><h2>Services</h2></div>
+    <div class="kicker"><h2>Services</h2></div>
     <div class="services-grid">
       <div class="service">
         <h3>Fractional Leadership</h3>
@@ -469,7 +457,7 @@
 </div>
 
 <section class="credentials" id="track-record">
-  <div class="kicker"><span class="num">5</span><h2>Track Record</h2></div>
+  <div class="kicker"><h2>Track Record</h2></div>
   <div class="stats-grid">
     <div class="stat">
       <span class="label">Regulatory Compliance</span>
@@ -497,7 +485,7 @@
 </section>
 
 <footer id="contact">
-  <div class="kicker"><span class="num">6</span><h2>Get in Touch</h2></div>
+  <div class="kicker"><h2>Get in Touch</h2></div>
   <h3>Let's talk about your AI transformation and governance needs.</h3>
   <p class="contact-line">
     <a href="mailto:sanjukta@sahojconcepts.com">sanjukta@sahojconcepts.com</a>
