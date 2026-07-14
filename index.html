@@ -76,10 +76,11 @@
   }
   .eyebrow {
     font-family: 'Helvetica Neue', Arial, sans-serif;
-    font-size: 12px;
-    letter-spacing: 0.28em;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.24em;
     text-transform: uppercase;
-    color: var(--accent);
+    color: var(--accent-dark);
     margin-bottom: 22px;
   }
   .eyebrow::before, .eyebrow::after {
@@ -331,7 +332,8 @@
     margin-right: auto;
   }
   .contact-line { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 16px; margin-top: 24px; }
-  .contact-line a { color: var(--bg); text-decoration: none; border-bottom: 1px solid var(--accent); }
+  .contact-line a { color: var(--bg); text-decoration: none; border-bottom: 1px solid rgba(255,255,255,0.45); }
+  .contact-line a:hover { border-bottom-color: var(--bg); }
   .contact-sep { color: #9db5ac; margin: 0 12px; }
   .firm-line { font-family: 'Helvetica Neue', Arial, sans-serif; font-size: 12px; color: #9db5ac; margin-top: 32px; }
 
@@ -371,7 +373,7 @@
   </svg>
   <div class="hero-inner">
     <div class="eyebrow">AI Transformation &amp; Governance</div>
-    <h1>Leadership for banking and financial services entering the AI era</h1>
+    <h1>AI Transformation Leadership for Financial Services</h1>
     <p class="tagline">Twenty-five years of enterprise delivery and portfolio governance, now focused on making AI accountability a delivery and operating model discipline rather than a policy exercise.</p>
     <div class="hero-cta">
       <a class="btn btn-solid" href="#contact">Get in Touch</a>
